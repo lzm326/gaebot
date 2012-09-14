@@ -8,7 +8,7 @@ set uploaddir=src
     echo ===============================================================
     echo.
     echo please input your appid
-) && (lzm326
+) && (
     @cd /d "%~dp0" 
 ) && (
     set PYTHONSCRIPT="import sys;sys.path.insert(0, 'uploader.zip');import appcfg;appcfg.main()"
