@@ -13,7 +13,7 @@ set uploaddir=src
 ) && (
     set PYTHONSCRIPT="import sys;sys.path.insert(0, 'uploader.zip');import appcfg;appcfg.main()"
 ) && (
-    ".\py.exe"
+
 ) && (
     echo.
     echo GAEBot uploaded, press any to exit.
